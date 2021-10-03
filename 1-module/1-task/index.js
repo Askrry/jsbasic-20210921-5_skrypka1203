@@ -1,15 +1,9 @@
 function factorial(n) {
-  for (n=0; n = 0; !n){
+  let factorial = 1;
+  for(; n > 1; n--) {
+    factorial = n * factorial;
+    }
+    return factorial;
 
-  }
-  for (n=0; n = 1; !n){
-
-  }
-  for (n=0; n = 3; !n){
-
-  }
-  for (n=0; n = 5; !n){
-
-  }
-  return n
 }
+
